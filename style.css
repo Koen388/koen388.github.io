@@ -1,0 +1,70 @@
+h1 {
+    color: black;
+    text-align: center;
+
+}
+
+h1 { 
+    font-family: "Calibri";
+}
+
+#content {
+    font-family: "Calibri";
+}
+
+li {
+    font-size: 110%;
+    text-align: justify;
+}
+
+body {
+    text-align: center;
+    margin: 0;
+}
+
+* { 
+    box-sizing: border-box;
+}
+header { 
+    height: 100px;
+    background: white;
+    width: 100%;
+    z-index: 10;
+    position: sticky;
+    top:0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#banner{
+    width: 100%;
+    height: 500px;
+    position: fixed;
+    top: 100px;
+    background: url(banner.jpg);
+    background-size: cover;
+}
+
+#content {
+    width: 100%;
+    position: relative;
+    top: 400px;
+    background: white;
+    height: 1500px;
+}
+
+h2 {
+    font-family: "Calibri";
+}
+
+#banner {
+    color: white;
+    font-size: 300%;
+    position: middle;
+}
+
+#content {
+    color: black;
+    position: center;
+}
