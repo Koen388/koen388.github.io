@@ -69,3 +69,26 @@ h2 {
     color: black;
     position: center;
 }
+
+#toptext { 
+    float: left;
+    position: absolute;
+    left: 100px;
+}
+
+#text1 {
+    position: absolute;
+    left: 100px;
+}
+
+#text2 { 
+    position: absolute;
+    top: 350px;
+    left: 100px;
+}
+
+#title2 {
+    position: absolute;
+    bottom: 1150px;
+    left: 470px;
+}
