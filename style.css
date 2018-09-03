@@ -78,19 +78,25 @@ h2 {
 
 #text1 {
     position: absolute;
-    left: 100px;
+    top: 3%;
+    left: 7%;
 }
 
 #text2 { 
     position: absolute;
-    top: 350px;
-    left: 100px;
+    top: 23%;
+    left: 7%;
 }
 
+#title1 { 
+    position: absolute;
+    bottom: 96%;
+    left: 35%;
+}
 #title2 {
     position: absolute;
     bottom: 1150px;
-    left: 470px;
+    left: 30%;
 }
 
 #banner {
