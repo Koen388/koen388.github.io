@@ -1,0 +1,103 @@
+
+h1 {
+    color: black;
+    text-align: center;
+    font-family: "Calibri";
+}
+
+li {
+    font-size: 110%;
+    text-align: justify;
+}
+
+body {
+    font-family: "Calibri";
+    text-align: center;
+    margin: 0;
+    width: 100%;
+}
+
+* { 
+    box-sizing: border-box;
+}
+header { 
+    height: 100px;
+    background: lightblue;
+    width: 100%;
+    z-index: 10;
+    position: sticky;
+    top:0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url("../banner.jpg");
+    background-size: cover;
+    -webkit-box-shadow: 6px 10px 10px rgba(200, 100, 100, 0.49);
+    -moz-box-shadow:    6px 10px 10px rgba(200, 100, 100, 0.49);
+    box-shadow:         6px 6px 5px rgba(200, 100, 100, 0.49);
+    Position: center;
+    font-size: 300%;
+    text-align: center;
+}
+
+.content {
+    width: 100%;
+    position: relative;
+    top: 10px;
+    background: whitesmoke;
+    height: 1500px;
+    color: black;
+    position: center;
+    font-family: "Calibri";
+}
+
+h2 {
+    font-family: "Trebuchet MS";
+    /*font voor HZ: blabla*/
+}
+
+.toptext { 
+    float: left;
+    position: relative;
+    left: 100px;
+}
+
+.text1 {
+    position: relative;
+    text-align: left;
+}
+
+.text2 { 
+    position: relative;
+    text-align: left;
+}
+
+.title1 { 
+    font-size: 130%;
+    position: relative;
+    text-align: center;
+}
+.title2 {
+    font-size: 130%;
+    position: relative;
+    text-align: center;
+}
+
+
+.PersoonlijkeInto {
+    float: left;
+    position: relative;
+    left: 45%;
+}
+
+.Dashboard {
+    float: left;
+    position: relative;
+    left: 50%;
+}
