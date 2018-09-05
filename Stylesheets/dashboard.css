@@ -28,7 +28,7 @@ header {
     position: sticky;
     top:0;
     margin: 0;
-    padding: 0;
+    padding: 0%;
     border: 0;
 }
 
@@ -50,7 +50,7 @@ header {
 .content {
     width: 100%;
     position: relative;
-    top: 10px;
+    top: 25px;
     background: whitesmoke;
     height: 1500px;
     color: black;
