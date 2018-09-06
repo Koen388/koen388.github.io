@@ -123,7 +123,7 @@ h2 {
       -webkit-transition:height 0.5s; 
       text-align: center;
       padding-bottom: 5%;
-      font-size: 85%;
+      font-size: 75%;
   }
   .grow:hover {
       height: 140px; /* This is the height on hover */
@@ -141,7 +141,7 @@ h2 {
       -webkit-transition:height 0.5s; 
       text-align: center;
       padding-bottom: 5%;
-      font-size: 85%;
+      font-size: 75%;
       right: 9%;
   }
 
