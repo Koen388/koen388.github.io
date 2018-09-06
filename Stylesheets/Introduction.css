@@ -52,7 +52,7 @@ header {
     position: relative;
     top: 10px;
     background: white;
-    height: 1500px;
+    height: 2000px;
     color: black;
     position: center;
     font-family: "Calibri";
@@ -148,3 +148,18 @@ h2 {
   .grow2:hover {
      height: 140px; /* This is the height on hover */
   }
+  
+  .image {
+    transition: transform .2s;
+    width: 10px;
+    height: 10px;
+    margin: 0 auto;
+    padding-right: 25%;
+    padding-top: 10px;
+}
+
+.image:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
