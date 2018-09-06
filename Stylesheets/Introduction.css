@@ -52,7 +52,7 @@ header {
     position: relative;
     top: 10px;
     background: white;
-    height: 2000px;
+    height: 1500px;
     color: black;
     position: center;
     font-family: "Calibri";
@@ -79,7 +79,7 @@ h2 {
     overflow: hidden;
     font-size: 16pt;
     padding-top: 3%;
-    padding-bottom: 3%;
+    padding-bottom: 1%;
 }
 
 .text2 { 
@@ -124,6 +124,7 @@ h2 {
       text-align: center;
       padding-bottom: 5%;
       font-size: 75%;
+      margin-top: 23%;
   }
   .grow:hover {
       height: 140px; /* This is the height on hover */
@@ -143,6 +144,7 @@ h2 {
       padding-bottom: 5%;
       font-size: 75%;
       right: 9%;
+      margin-top: 23%;
   }
 
   .grow2:hover {
@@ -159,7 +161,7 @@ h2 {
 }
 
 .image:hover {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.5); 
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
 }
