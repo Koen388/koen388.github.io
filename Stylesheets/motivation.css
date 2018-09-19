@@ -1,0 +1,152 @@
+
+
+h1 {
+    color: black;
+    text-align: center;
+    font-family: "Calibri";
+}
+
+li {
+    font-size: 110%;
+    text-align: justify;
+}
+
+body {
+    font-family: "Calibri";
+    text-align: center;
+    margin: 0;
+    width: 100%;
+}
+
+* { 
+    box-sizing: border-box;
+}
+header { 
+    height: 100px;
+    background: lightblue;
+    width: 100%;
+    z-index: 10;
+    position: sticky;
+    top:0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url("../banner.jpg");
+    background-size: cover;
+    -webkit-box-shadow: 6px 10px 10px rgba(200, 100, 100, 0.49);
+    -moz-box-shadow:    6px 10px 10px rgba(200, 100, 100, 0.49);
+    box-shadow:         6px 6px 5px rgba(200, 100, 100, 0.49);
+    Position: center;
+    font-size: 300%;
+    text-align: center;
+    color: white;
+}
+
+.content {
+    width: 100%;
+    position: relative;
+    top: 10px;
+    background: white;
+    height: 1500px;
+    color: black;
+    position: center;
+    font-family: "Calibri";
+}
+
+h2 {
+    font-family: "Trebuchet MS";
+    /*font voor HZ: blabla*/
+}
+
+.toptext { 
+    float: left;
+    position: relative;
+    left: 100px;
+    color: red;
+}
+
+.text1 {
+    position: relative;
+    text-align: left;
+    background-color: whitesmoke;
+    box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .75);
+    overflow: hidden;
+    font-size: 16pt;
+    padding-left: 10%;
+    list-style-type: none;
+}
+
+.text2 { 
+    position: relative;
+    text-align: left;
+    padding-left: 10%;
+    list-style-type: none;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, .75);
+    overflow: hidden;
+    font-size: 16pt;
+}
+
+.title1 { 
+    font-size: 130%;
+    position: relative;
+    text-align: center;
+}
+
+
+.PersoonlijkeInto {
+    float: left;
+    position: relative;
+    left: 45%;
+}
+
+.Dashboard {
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+.grow {
+    padding: 5px 5px 5px 5px;
+    border-radius: 30px 0px 30px 0px;
+      height: 70px; 
+      width: 40%; 
+      margin: 5px 1% 5px 1%; 
+      float: left; 
+      position: relative; 
+      transition:height 0.5s; 
+      -webkit-transition:height 0.5s; 
+      text-align: center;
+      padding-bottom: 5%;
+      font-size: 70%
+  
+  }
+  .grow:hover {
+      height: 140px; /* This is the height on hover */
+  }
+
+  .grow2 {
+    padding: 5px 5px 5px 5px;
+    border-radius: 30px 0px 30px 0px;
+      height: 70px; 
+      width: 40%; 
+      margin: 5px 1% 5px 1%; 
+      float: right; 
+      position: relative; 
+      transition:height 0.5s; 
+      -webkit-transition:height 0.5s; 
+      text-align: center;
+      padding-bottom: 5%;
+      font-size: 70%;
+      right: 12%;
+  }
+
+  .grow2:hover {
+     height: 140px; /* This is the height on hover */
+  }
