@@ -53,7 +53,7 @@ header {
     position: relative;
     top: 10px;
     background: white;
-    height: 1500px;
+    height: 1100px;
     color: black;
     position: center;
     font-family: "Calibri";
@@ -91,6 +91,7 @@ h2 {
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, .75);
     overflow: hidden;
     font-size: 16pt;
+    padding-bottom: 7%;
 }
 
 .title1 { 
@@ -123,7 +124,7 @@ h2 {
     left: 7%;
 }
 
-.grow {
+.growintro {
     padding: 5px 5px 5px 5px;
     border-radius: 30px 0px 30px 0px;
       height: 70px; 
@@ -138,11 +139,11 @@ h2 {
       font-size: 70%
   
   }
-  .grow:hover {
+  .growintro:hover {
       height: 140px; /* This is the height on hover */
   }
 
-  .grow2 {
+  .growdashboard {
     padding: 5px 5px 5px 5px;
     border-radius: 30px 0px 30px 0px;
       height: 70px; 
@@ -158,6 +159,25 @@ h2 {
       right: 12%;
   }
 
-  .grow2:hover {
+  .growdashboard:hover {
      height: 140px; /* This is the height on hover */
+  }
+
+  .growmotivatie {
+    padding: 5px 5px 5px 5px;
+    border-radius: 30px 0px 30px 0px;
+      height: 70px; 
+      width: 40%; 
+      margin: 5px 1% 5px 1%; 
+      float: left; 
+      position: sticky; 
+      transition:height 0.5s; 
+      -webkit-transition:height 0.5s; 
+      text-align: center;
+      font-size: 70%;
+      left: 22%;
+  }
+  
+  .growmotivatie:hover {
+      height: 140px; /* This is the height on hover */
   }
