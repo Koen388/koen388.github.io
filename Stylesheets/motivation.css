@@ -100,16 +100,22 @@ h2 {
 }
 
 
-.PersoonlijkeInto {
+.persoonlijkeInto {
     float: left;
     position: relative;
     left: 45%;
 }
 
-.Dashboard {
+.dashboard {
     float: left;
     position: relative;
     left: 50%;
+}
+
+.homepage {
+    float: left;
+    position: relative;
+    left: 7%;
 }
 
 .grow {

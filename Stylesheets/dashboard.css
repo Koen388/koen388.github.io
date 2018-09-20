@@ -99,16 +99,22 @@ h2 {
 }
 
 
-.PersoonlijkeInto {
+.persoonlijkeInto {
     float: left;
     position: relative;
     left: 60%;
 }
 
-.HomePage {
+.homepage {
     float: left;
     position: relative;
     left: 30%;
+}
+
+.motivation {
+    float: left;
+    position: relative;
+    left: 10%;
 }
 
 table {
